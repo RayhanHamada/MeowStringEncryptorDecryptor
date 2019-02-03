@@ -12,10 +12,7 @@ public class Encryptor {
     public String encrypt()
     {
         String binaryForm = "", result = "";
-        for (char c : rawString.toCharArray())
-        {
-            binaryForm += Integer.toBinaryString((int)c);
-        }
+        for (char c : rawString.toCharArray()) binaryForm += Integer.toBinaryString((int)c);
 
         int i = 0;
         for (char c : binaryForm.toCharArray())

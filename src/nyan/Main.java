@@ -1,7 +1,5 @@
 package nyan;
 
-import java.sql.SQLOutput;
-
 public class Main {
 
     private static String result;
